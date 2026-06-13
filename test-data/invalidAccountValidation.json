@@ -1,0 +1,6 @@
+{
+    "url": "https://parabank.parasoft.com/parabank/services/bank",
+    "username": "johndoe3",
+    "password": "password123",
+    "invalidAccountId":"1234598636"
+}

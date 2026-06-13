@@ -1,0 +1,8 @@
+{
+    "url": "https://parabank.parasoft.com/parabank",
+    "username": "johndoe3",
+    "password": "password123",
+    "accountType": ["SAVINGS","CHECKING","CHECKING","SAVINGS"],
+    "balance":"100",
+    "baseUrl": "https://parabank.parasoft.com/parabank/services/bank"
+}

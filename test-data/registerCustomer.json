@@ -1,0 +1,13 @@
+{
+    "url": "https://parabank.parasoft.com/parabank",
+    "fname": "John",
+    "lname": "Doe",
+    "address": "123 Main St",
+    "city": "Anytown",
+    "state": "Anystate",
+    "zip": "12345",
+    "phone": "555-123-4567",
+    "ssn": "123-45-6789",
+    "username": "johndoe3",
+    "password": "password123"
+}

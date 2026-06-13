@@ -1,0 +1,33 @@
+[
+    {
+        "url": "http://parabank.parasoft.com/parabank/index.htm",
+        "username": "johndoe3",
+        "password": "password123",
+        "transferAmount": "100"
+    },
+    {
+        "url": "http://parabank.parasoft.com/parabank/index.htm",
+        "username": "johndoe3",
+        "password": "password123",
+        "transferAmount": "0"
+    },
+    {
+        "url": "http://parabank.parasoft.com/parabank/index.htm",
+        "username": "johndoe3",
+        "password": "password123",
+        "transferAmount": "-100"
+    },
+    {
+        "url": "http://parabank.parasoft.com/parabank/index.htm",
+        "username": "johndoe3",
+        "password": "password123",
+        "transferAmount": "999999"
+    },
+    {
+        "url": "http://parabank.parasoft.com/parabank/index.htm",
+        "username": "johndoe3",
+        "password": "password123",
+        "transferAmount": "abcdefg"
+    }
+
+]
