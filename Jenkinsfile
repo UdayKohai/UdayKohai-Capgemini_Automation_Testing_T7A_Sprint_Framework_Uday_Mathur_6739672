@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 options {
     timestamps()
 }
@@ -148,6 +147,5 @@ post {
         archiveArtifacts artifacts: 'test-results/**', allowEmptyArchive: true
     }
 }
-```
 
 }
