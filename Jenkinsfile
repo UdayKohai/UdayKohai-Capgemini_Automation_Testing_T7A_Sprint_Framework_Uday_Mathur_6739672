@@ -132,12 +132,6 @@ stages {
 post {
     always {
 
-        allure(
-            includeProperties: false,
-            jdk: '',
-            results: [[path: 'allure-results']]
-        )
-
         publishHTML([
             allowMissing: true,
             alwaysLinkToLastBuild: true,
@@ -147,20 +141,11 @@ post {
             reportName: 'Playwright HTML Report'
         ])
 
-        archiveArtifacts(
-            artifacts: 'playwright-report/**',
-            allowEmptyArchive: true
-        )
+        archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
 
-        archiveArtifacts(
-            artifacts: 'allure-results/**',
-            allowEmptyArchive: true
-        )
+        archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
 
-        archiveArtifacts(
-            artifacts: 'test-results/**',
-            allowEmptyArchive: true
-        )
+        archiveArtifacts artifacts: 'test-results/**', allowEmptyArchive: true
     }
 }
 ```
