@@ -1,0 +1,17 @@
+[ 'SAVINGS', 'CHECKING', 'CHECKING', 'SAVINGS' ]
+Account List Response: 
+[
+  { id: 13788, customerId: 12545, type: 'CHECKING', balance: -1084.5 },
+  { id: 13899, customerId: 12545, type: 'SAVINGS', balance: 300 },
+  { id: 14121, customerId: 12545, type: 'SAVINGS', balance: 100 },
+  { id: 14343, customerId: 12545, type: 'CHECKING', balance: 200 },
+  { id: 14565, customerId: 12545, type: 'CHECKING', balance: 200 },
+  { id: 14787, customerId: 12545, type: 'SAVINGS', balance: 100 },
+  { id: 15009, customerId: 12545, type: 'CHECKING', balance: 100 },
+  { id: 15120, customerId: 12545, type: 'SAVINGS', balance: 100 },
+  { id: 15231, customerId: 12545, type: 'CHECKING', balance: 100 },
+  { id: 15342, customerId: 12545, type: 'CHECKING', balance: 100 },
+  { id: 15453, customerId: 12545, type: 'SAVINGS', balance: 100 },
+  { id: 15564, customerId: 12545, type: 'CHECKING', balance: 100 },
+  { id: 15675, customerId: 12545, type: 'SAVINGS', balance: 100 }
+]

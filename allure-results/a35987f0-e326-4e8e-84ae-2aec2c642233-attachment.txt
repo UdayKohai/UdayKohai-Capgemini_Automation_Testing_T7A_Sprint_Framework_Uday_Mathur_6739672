@@ -1,0 +1,26 @@
+[
+  {
+    id: 22690,
+    accountId: 16119,
+    type: 'Debit',
+    date: 1781308800000,
+    amount: 100,
+    description: 'Funds Transfer Sent'
+  },
+  {
+    id: 23134,
+    accountId: 16119,
+    type: 'Debit',
+    date: 1781308800000,
+    amount: 100,
+    description: 'Funds Transfer Sent'
+  },
+  {
+    id: 23356,
+    accountId: 16119,
+    type: 'Debit',
+    date: 1781308800000,
+    amount: 100,
+    description: 'Funds Transfer Sent'
+  }
+]

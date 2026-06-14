@@ -1,0 +1,8 @@
+Account List Response: 
+[
+  { id: 16119, customerId: 12878, type: 'CHECKING', balance: 115.5 },
+  { id: 16341, customerId: 12878, type: 'SAVINGS', balance: 300 },
+  { id: 16563, customerId: 12878, type: 'SAVINGS', balance: 100 }
+]
+accountListResponse.length: 3
+Account created successfully and is present in the account list.

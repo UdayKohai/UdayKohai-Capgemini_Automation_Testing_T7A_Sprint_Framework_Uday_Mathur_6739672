@@ -1,0 +1,20 @@
+{
+  id: 12878,
+  firstName: 'John',
+  lastName: 'Doe',
+  address: {
+    street: '123 Main St',
+    city: 'Anytown',
+    state: 'Anystate',
+    zipCode: '12345'
+  },
+  phoneNumber: '555-123-4567',
+  ssn: '123-45-6789'
+}
+12878
+Account List Response: 
+[
+  { id: 16119, customerId: 12878, type: 'CHECKING', balance: 115.5 },
+  { id: 16341, customerId: 12878, type: 'SAVINGS', balance: 300 },
+  { id: 16563, customerId: 12878, type: 'SAVINGS', balance: 100 }
+]

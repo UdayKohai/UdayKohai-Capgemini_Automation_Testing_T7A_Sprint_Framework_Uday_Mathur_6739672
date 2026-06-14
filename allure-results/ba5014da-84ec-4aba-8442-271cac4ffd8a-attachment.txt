@@ -1,0 +1,5 @@
+Account List Response: 
+[
+  { id: 16119, customerId: 12878, type: 'CHECKING', balance: 415.5 },
+  { id: 16341, customerId: 12878, type: 'SAVINGS', balance: 100 }
+]
