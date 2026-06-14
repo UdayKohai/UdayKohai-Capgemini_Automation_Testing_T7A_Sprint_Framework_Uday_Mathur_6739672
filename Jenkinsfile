@@ -25,25 +25,25 @@ stages {
 
     stage('UI - Register Customer') {
         steps {
-            bat 'npx playwright test tests/ui/registeringcustomer.spec.ts --workers=1'
+            bat 'npx playwright test tests/ui/registercustomer.spec.ts --workers=1'
         }
     }
 
     stage('UI - Open New Account') {
         steps {
-            bat 'npx playwright test tests/ui/opeaningnewaccount.spec.ts --workers=1'
+            bat 'npx playwright test tests/ui/opeaningAccount.spec.ts --workers=1'
         }
     }
 
     stage('UI - Validate Account Opening Message') {
         steps {
-            bat 'npx playwright test tests/ui/successfulOpeaingAccountMessage.spec.ts --workers=1'
+            bat 'npx playwright test tests/ui/successfulOpeaningAccount.spec.ts --workers=1'
         }
     }
 
     stage('UI - Validate Transfer Success Message') {
         steps {
-            bat 'npx playwright test tests/ui/successfulTransferFundsMsg.spec.ts --workers=1'
+            bat 'npx playwright test tests/ui/successfulTransferFund.spec.ts --workers=1'
         }
     }
 
@@ -59,13 +59,13 @@ stages {
 
     stage('API - Account Creation') {
         steps {
-            bat 'npx playwright test tests/api/accountcreationviaapi.spec.ts --workers=1'
+            bat 'npx playwright test tests/api/accountCreation.spec.ts --workers=1'
         }
     }
 
     stage('API - Account Detail Validation') {
         steps {
-            bat 'npx playwright test tests/api/accountdetailValidation.spec.ts --workers=1'
+            bat 'npx playwright test tests/api/accountDetailValidation.spec.ts --workers=1'
         }
     }
 
@@ -83,7 +83,7 @@ stages {
 
     stage('API - Transaction Balance Validation') {
         steps {
-            bat 'npx playwright test tests/api/transactionbalanceValidation.spec.ts --workers=1'
+            bat 'npx playwright test tests/api/transactionValidation.spec.ts --workers=1'
         }
     }
 
