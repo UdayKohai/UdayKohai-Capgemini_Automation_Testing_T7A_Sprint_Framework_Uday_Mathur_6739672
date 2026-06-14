@@ -5,10 +5,6 @@ options {
     timestamps()
 }
 
-tools {
-    nodejs 'NodeJS'
-}
-
 stages {
 
     stage('Install Dependencies') {
