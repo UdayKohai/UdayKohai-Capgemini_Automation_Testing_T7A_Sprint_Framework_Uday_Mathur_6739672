@@ -5,6 +5,10 @@ options {
     timestamps()
 }
 
+tools {
+    nodejs 'NodeJS'
+}
+
 stages {
 
     stage('Install Dependencies') {
@@ -128,8 +132,15 @@ stages {
     }
 }
 
+
 post {
     always {
+
+        allure(
+            includeProperties: false,
+            jdk: '',
+            results: [[path: 'allure-results']]
+        )
 
         publishHTML([
             allowMissing: true,
@@ -141,9 +152,7 @@ post {
         ])
 
         archiveArtifacts artifacts: 'playwright-report/**', allowEmptyArchive: true
-
         archiveArtifacts artifacts: 'allure-results/**', allowEmptyArchive: true
-
         archiveArtifacts artifacts: 'test-results/**', allowEmptyArchive: true
     }
 }
